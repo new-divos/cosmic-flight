@@ -1,8 +1,8 @@
 name: cosmic-flight
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - python=3.8
+  - ncurses
   - pip
-  - pip:
-      - ncurses
